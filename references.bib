@@ -1,0 +1,1220 @@
+
+@article{mccarthy_history_1978,
+	title = {History of {LISP}},
+	volume = {13},
+	issn = {0362-1340},
+	doi = {10.1145/960118.808387},
+	abstract = {This paper concentrates on the development of the basic ideas and distinguishes two periods - Summer 1958 through Summer 1958 when most of the key ideas were developed (some of which were implemented in the {FORTRAN} based {FLPL}), and Fall 1958 through 1962 when the programming language was implemented and applied to problems of artificial intelligence. After 1962, the development of {LISP} became multi-stranded, and different ideas were pursued in different places.},
+	pages = {217--223},
+	number = {8},
+	journaltitle = {{SIGPLAN} notices},
+	author = {{McCarthy}, John},
+	date = {1978},
+	note = {Publisher: {ACM}},
+	keywords = {History of {LISP}},
+}
+
+@article{steele_evolution_1993,
+	title = {The evolution of Lisp},
+	volume = {28},
+	issn = {0362-1340},
+	doi = {10.1145/155360.155373},
+	abstract = {Lisp is the world's greatest programming language—or so its proponents think. The structure of Lisp makes it easy to extend the language or even to implement entirely new dialects without starting from scratch. Overall, the evolution of Lisp has been guided more by institutional rivalry, one-upsmanship, and the glee born of technical cleverness that is characteristic of the “hacker culture” than by sober assessments of technical requirements. Nevertheless this process has eventually produced both an industrial-strength programming language, messy but powerful, and a technically pure dialect, small but powerful, that is suitable for use by programming-language theoreticians. We pick up where {McCarthy}'s paper in the first {HOPL} conference left off. We trace the development chronologically from the era of the {PDP}-6, through the heyday of Interlisp and {MacLisp}, past the ascension and decline of special purpose Lisp machines, to the present era of standardization activities. We then examine the technical evolution of a few representative language features, including both some notable successes and some notable failures, that illuminate design issues that distinguish Lisp from other programming languages. We also discuss the use of Lisp as a laboratory for designing other programming languages. We conclude with some reflections on the forces that have driven the evolution of Lisp.},
+	pages = {231--270},
+	number = {3},
+	journaltitle = {{SIGPLAN} notices},
+	author = {Steele, Guy L. and Gabriel, Richard P.},
+	date = {1993},
+	keywords = {lisp},
+}
+
+@article{macqueen_history_2020,
+	title = {The history of Standard {ML}},
+	volume = {4},
+	issn = {2475-1421},
+	doi = {10.1145/3386336},
+	abstract = {The {ML} family of strict functional languages, which includes F\#, {OCaml}, and Standard {ML}, evolved from the Meta Language of the {LCF} theorem proving system developed by Robin Milner and his research group at the University of Edinburgh in the 1970s. This paper focuses on the history of Standard {ML}, which plays a central role in this family of languages, as it was the first to include the complete set of features that we now associate with the name "{ML}" (i.e., polymorphic type inference, datatypes with pattern matching, modules, exceptions, and mutable state).
+Standard {ML}, and the {ML} family of languages, have had enormous influence on the world of programming language design and theory. {ML} is the foremost exemplar of a functional programming language with strict evaluation (call-by-value) and static typing. The use of parametric polymorphism in its type system, together with the automatic inference of such types, has influenced a wide variety of modern languages (where polymorphism is often referred to as generics ). It has popularized the idea of datatypes with associated case analysis by pattern matching. The module system of Standard {ML} extends the notion of type-level parameterization to large-scale programming with the notion of parametric modules, or functors .
+Standard {ML} also set a precedent by being a language whose design included a formal definition with an associated metatheory of mathematical proofs (such as soundness of the type system). A formal definition was one of the explicit goals from the beginning of the project. While some previous languages had rigorous definitions, these definitions were not integral to the design process, and the formal part was limited to the language syntax and possibly dynamic semantics or static semantics, but not both.
+The paper covers the early history of {ML}, the subsequent efforts to define a standard {ML} language, and the development of its major features and its formal definition. We also review the impact that the language had on programming-language research.},
+	pages = {1--100},
+	issue = {{HOPL}},
+	journaltitle = {Proceedings of {ACM} on programming languages},
+	author = {{MacQueen}, David and Harper, Robert and Reppy, John},
+	date = {2020},
+	note = {Publisher: {ACM}},
+	keywords = {Language design ; Operational semantics ; Standard {ML} ; Type checking, standard ml},
+}
+
+@article{hickey_history_2020,
+	title = {A history of Clojure},
+	volume = {4},
+	issn = {2475-1421},
+	doi = {10.1145/3386321},
+	abstract = {Clojure was designed to be a general-purpose, practical functional language, suitable for use by professionals wherever its host language, e.g., Java, would be. Initially designed in 2005 and released in 2007, Clojure is a dialect of Lisp, but is not a direct descendant of any prior Lisp. It complements programming with pure functions of immutable data with concurrency-safe state management constructs that support writing correct multithreaded programs without the complexity of mutex locks.
+Clojure is intentionally hosted, in that it compiles to and runs on the runtime of another language, such as the {JVM}. This is more than an implementation strategy; numerous features ensure that programs written in Clojure can leverage and interoperate with the libraries of the host language directly and efficiently.
+In spite of combining two (at the time) rather unpopular ideas, functional programming and Lisp, Clojure has since seen adoption in industries as diverse as finance, climate science, retail, databases, analytics, publishing, healthcare, advertising and genomics, and by consultancies and startups worldwide, much to the career-altering surprise of its author.
+Most of the ideas in Clojure were not novel, but their combination puts Clojure in a unique spot in language design (functional, hosted, Lisp). This paper recounts the motivation behind the initial development of Clojure and the rationale for various design decisions and language constructs. It then covers its evolution subsequent to release and adoption.},
+	pages = {1--46},
+	issue = {{HOPL}},
+	journaltitle = {Proceedings of {ACM} on programming languages},
+	author = {Hickey, Rich},
+	date = {2020},
+	note = {Publisher: {ACM}},
+	keywords = {Lisp ; Clojure, clojure},
+}
+
+@article{monnier_evolution_2020,
+	title = {Evolution of Emacs Lisp},
+	volume = {4},
+	issn = {2475-1421},
+	doi = {10.1145/3386324},
+	abstract = {While Emacs proponents largely agree that it is the world's greatest text editor, it is almost as much a Lisp machine disguised as an editor. Indeed, one of its chief appeals is that it is programmable via its own programming language. Emacs Lisp is a Lisp in the classic tradition. In this article, we present the history of this language over its more than 30 years of evolution. Its core has remained remarkably stable since its inception in 1985, in large part to preserve compatibility with the many third-party packages providing a multitude of extensions. Still, Emacs Lisp has evolved and continues to do so.
+Important aspects of Emacs Lisp have been shaped by concrete requirements of the editor it supports as well as implementation constraints. These requirements led to the choice of a Lisp dialect as Emacs's language in the first place, specifically its simplicity and dynamic nature: Loading additional Emacs packages or changing the ones in place occurs frequently, and having to restart the editor in order to re-compile or re-link the code would be unacceptable. Fulfilling this requirement in a more static language would have been difficult at best.
+One of Lisp's chief characteristics is its malleability through its uniform syntax and the use of macros. This has allowed the language to evolve much more rapidly and substantively than the evolution of its core would suggest, by letting Emacs packages provide new surface syntax alongside new functions. In particular, Emacs Lisp can be customized to look much like Common Lisp, and additional packages provide multiple-dispatch object systems, legible regular expressions, programmable pattern-matching constructs, generalized variables, and more. Still, the core has also evolved, albeit slowly. Most notably, it acquired support for lexical scoping.
+The timeline of Emacs Lisp development is closely tied to the projects and people who have shaped it over the years: We document Emacs Lisp history through its predecessors, Mocklisp and {MacLisp}, its early development up to the "Emacs schism" and the fork of Lucid Emacs, the development of {XEmacs}, and the subsequent rennaissance of Emacs development.},
+	pages = {1--55},
+	issue = {{HOPL}},
+	journaltitle = {Proceedings of {ACM} on programming languages},
+	author = {Monnier, Stefan and Sperber, Michael},
+	date = {2020},
+	note = {Publisher: {ACM}},
+	keywords = {History of programming languages ; Lisp ; Emacs Lisp, emacs},
+}
+
+@online{dykstra_net_nodate,
+	title = {.{NET} {SDK} overview},
+	url = {https://docs.microsoft.com/en-us/dotnet/core/sdk},
+	abstract = {Find out about the .{NET} {SDK}, which is a set of libraries and tools used to create .{NET} projects.},
+	author = {Dykstra, Tom},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {.net, sdk},
+}
+
+@online{carter_active_nodate,
+	title = {Active Patterns - F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/active-patterns},
+	abstract = {Learn how to use active patterns to define named partitions that subdivide input data in the F\# programming language.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {active patterns, f\#},
+}
+
+@online{carter_code_nodate,
+	title = {Code Quotations - F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/code-quotations},
+	abstract = {Learn about F\# code quotations, a language feature that enables you to generate and work with F\# code expressions programmatically.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {feature, quotations},
+}
+
+@online{carter_get_nodate,
+	title = {Get started with F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/get-started/},
+	abstract = {Find out how to get started with the F\# programming language.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-23},
+	langid = {english},
+	keywords = {getting started},
+}
+
+@online{jetbrains_rider_nodate,
+	title = {Rider: The Cross-Platform .{NET} {IDE} from {JetBrains}},
+	url = {https://www.jetbrains.com/rider/},
+	shorttitle = {Rider},
+	abstract = {Develop .{NET}, {ASP}.{NET}, .{NET} Core, Xamarin or Unity applications on Windows, Mac, Linux},
+	titleaddon = {{JetBrains}},
+	author = {Jetbrains},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {ide, rider},
+}
+
+@online{dmacqueen_standard_nodate,
+	title = {Standard {ML} History},
+	url = {https://smlfamily.github.io/history/},
+	author = {dmacqueen},
+	urldate = {2021-04-21},
+	keywords = {family, sml},
+}
+
+@online{carter_tour_nodate,
+	title = {Tour of F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/tour},
+	abstract = {Examine some of the key features of the F\# programming language in this tour with code samples.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-25},
+	langid = {english},
+}
+
+@online{carter_units_nodate,
+	title = {Units of Measure - F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/units-of-measure},
+	abstract = {Learn how floating point and signed integer values in F\# can have associated units of measure, which are typically used to indicate length, volume, and mass.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {units-of-measure},
+}
+
+@online{microsoft_visual_nodate,
+	title = {Visual Studio Code - Code Editing. Redefined},
+	url = {https://code.visualstudio.com/},
+	abstract = {Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, {macOS}, and Windows.},
+	author = {Microsoft},
+	urldate = {2021-04-25},
+	langid = {english},
+	keywords = {vscode},
+}
+
+@online{carter_what_nodate,
+	title = {What is F\#},
+	url = {https://docs.microsoft.com/en-us/dotnet/fsharp/what-is-fsharp},
+	abstract = {Learn about what the F\# programming language is and what F\# programming is like. Learn about rich data types, functions, and how they fit together.},
+	author = {Carter, Phillip},
+	urldate = {2021-04-23},
+	langid = {english},
+}
+
+@online{douglas_what_nodate,
+	title = {What is {NuGet} and what does it do?},
+	url = {https://docs.microsoft.com/en-us/nuget/what-is-nuget},
+	abstract = {A comprehensive introduction to what {NuGet} is and does},
+	author = {Douglas, Jon},
+	urldate = {2021-04-29},
+	langid = {english},
+	keywords = {nuget},
+}
+
+@article{wecker_liqui_2018,
+	title = {{LIQUi}{\textbar}{\textgreater}: A Software Design Architecture and Domain-Specific Language for Quantum Computing},
+	url = {https://www.microsoft.com/en-us/research/publication/liqui-a-software-design-architecture-and-domain-specific-language-for-quantum-computing/},
+	shorttitle = {{LIQUi}{\textbar}{\textgreater}},
+	abstract = {Languages, compilers, and computer-aided design tools will be essential for scalable quantum computing, which promises an exponential leap in our ability to execute complex tasks. {LIQUi}{\textbar}{\textgreater} is a modular software architecture designed to control quantum hardware. It enables easy programming, compilation, and simulation of quantum algorithms and circuits, and is independent of a specific quantum […]},
+	author = {Wecker, Dave and Svore, Krysta M. and Svore, Krysta M.},
+	urldate = {2021-04-25},
+	date = {2018-11-06},
+	langid = {american},
+	keywords = {liqui},
+}
+
+@online{noauthor_language-integrated_nodate,
+	title = {Language-Integrated Quantum Operations: {LIQUi}{\textbar}{\textgreater}},
+	url = {https://www.microsoft.com/en-us/research/project/language-integrated-quantum-operations-liqui/},
+	shorttitle = {Language-Integrated Quantum Operations},
+	abstract = {{LIQUi}{\textbar}{\textgreater} is a software architecture and toolsuite for quantum computing. It includes a programming language, optimization and scheduling algorithms, and quantum simulators. {LIQUi}{\textbar}{\textgreater} can be used to translate a quantum algorithm written in the form of a high-level program into the low-level machine instructions for a quantum device. {LIQUi}{\textbar}{\textgreater} is being developed by the Quantum […]},
+	titleaddon = {Microsoft Research},
+	urldate = {2021-04-25},
+	langid = {american},
+	keywords = {liqui},
+}
+
+@inreference{noauthor_metaprogramming_2021,
+	title = {Metaprogramming},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Metaprogramming&oldid=1017521092},
+	abstract = {Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data. It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running. In some cases, this allows programmers to minimize the number of lines of code to express a solution, in turn reducing development time. It also allows programs greater flexibility to efficiently handle new situations without recompilation.
+Metaprogramming can be used to move computations from run-time to compile-time, to generate code using compile time computations, and to enable self-modifying code. The ability of a programming language to be its own metalanguage is called reflection. Reflection is a valuable language feature to facilitate metaprogramming.
+Metaprogramming was popular in the 1970s and 1980s using list processing languages such as {LISP}. {LISP} hardware machines were popular in the 1980s and enabled applications that could process code. They were frequently used for artificial intelligence applications.},
+	booktitle = {Wikipedia},
+	urldate = {2021-04-25},
+	date = {2021-04-13},
+	langid = {english},
+	note = {Page Version {ID}: 1017521092},
+	keywords = {metaprogramming},
+}
+
+@inreference{noauthor_abstract_2021,
+	title = {Abstract syntax tree},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Abstract_syntax_tree&oldid=1016693387},
+	abstract = {In computer science, an abstract syntax tree ({AST}), or just syntax tree, is a tree representation of the abstract syntactic structure of source code written in a programming language. Each node of the tree denotes a construct occurring in the source code.
+The syntax is "abstract" in the sense that it does not represent every detail appearing in the real syntax, but rather just the structural or content-related details. For instance, grouping parentheses are implicit in the tree structure, so these do not have to be represented as separate nodes. Likewise, a syntactic construct like an if-condition-then expression may be denoted by means of a single node with three branches.
+This distinguishes abstract syntax trees from concrete syntax trees, traditionally designated parse trees. Parse trees are typically built by a parser during the source code translation and compiling process. Once built, additional information is added to the {AST} by means of subsequent processing, e.g., contextual analysis.
+Abstract syntax trees are also used in program analysis and program transformation systems.},
+	booktitle = {Wikipedia},
+	urldate = {2021-04-25},
+	date = {2021-04-08},
+	langid = {english},
+	note = {Page Version {ID}: 1016693387},
+	keywords = {ast},
+}
+
+@inreference{noauthor_mars_2021,
+	title = {\textit{Mars Climate Orbiter}},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Mars_Climate_Orbiter&oldid=1016599571},
+	abstract = {The Mars Climate Orbiter (formerly the Mars Surveyor '98 Orbiter) was a 638-kilogram (1,407 lb) robotic space probe launched by {NASA} on December 11, 1998 to study the Martian climate, Martian atmosphere, and surface changes and to act as the communications relay in the Mars Surveyor '98 program for Mars Polar Lander. However, on September 23, 1999, communication with the spacecraft was permanently lost as it went into orbital insertion. The spacecraft encountered Mars on a trajectory that brought it too close to the planet, and it was either destroyed in the atmosphere or escaped the planet's vicinity and entered an orbit around the Sun. An investigation attributed the failure to a measurement mismatch between two software systems: metric units by {NASA} and non-metric (imperial or "English") units by spacecraft builder Lockheed Martin.},
+	booktitle = {Wikipedia},
+	urldate = {2021-04-25},
+	date = {2021-04-08},
+	langid = {english},
+	note = {Page Version {ID}: 1016599571},
+	keywords = {mars},
+}
+
+@online{noauthor_ocaml_nodate,
+	title = {{OCaml} – {OCaml}},
+	url = {https://ocaml.org/},
+	urldate = {2021-04-25},
+	keywords = {ocaml},
+}
+
+@online{noauthor_history_nodate,
+	title = {A History of {OCaml} – {OCaml}},
+	url = {https://ocaml.org/learn/history.html},
+	urldate = {2021-04-21},
+	keywords = {ocaml},
+}
+
+@misc{kennedy_types_nodate,
+	title = {Types for Units-of-Measure: Theory and Practice},
+	shorttitle = {Types for Units-of-Measure},
+	abstract = {Units-of-measure are to science what types are to programming. In science and engineering, dimensional and unit consistency provides a first check on the correctness of an equation or formula, just as in programming the validation of a program by the type-checker eliminates one possible reason for failure.},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Kennedy, Andrew},
+	doi = {10.1007/978-3-642-17685-2_8},
+	note = {{ISBN}: 9783642176845
+{ISSN}: 0302-9743
+Pages: 268–305
+Place: Berlin, Heidelberg
+Series: Lecture Notes in Computer Science},
+	keywords = {Inference Algorithm ; Equational Theory ; Type System ; Type Inference ; Type Scheme, f\#, units-of-measure},
+}
+
+@inproceedings{hudak_history_2007,
+	title = {A history of Haskell: being lazy with class},
+	isbn = {978-1-59593-766-7},
+	doi = {10.1145/1238844.1238856},
+	series = {{HOPL} {III}},
+	shorttitle = {A history of Haskell},
+	abstract = {This paper describes the history of Haskell, including its genesis and principles, technical contributions, implementations and tools, and applications and impact.},
+	pages = {12--1--12--55},
+	publisher = {{ACM}},
+	author = {Hudak, Paul and Hughes, John and Peyton Jones, Simon and Wadler, Philip},
+	date = {2007},
+	keywords = {haskell, hopl3},
+}
+
+@online{noauthor_ionide_nodate,
+	title = {Ionide},
+	url = {https://ionide.io/},
+	urldate = {2021-04-21},
+	keywords = {ionide},
+}
+
+@article{syme_ilx_2001,
+	title = {{ILX}: Extending the .{NET} Common {IL} for Functional Language Interoperability},
+	volume = {59},
+	issn = {1571-0661},
+	url = {https://www.sciencedirect.com/science/article/pii/S1571066105804530},
+	doi = {10.1016/S1571-0661(05)80453-0},
+	series = {{BABEL}'01, First International Workshop on Multi-Language Infrastructure and Interoperability (Satellite Event of {PLI} 2001)},
+	shorttitle = {{ILX}},
+	abstract = {This paper describes several extensions to the .{NET} Common Intermediary Language ({CIL}), each of which is designed to enable easier implementation of typed high-level programming languages on the .{NET} platform, and to promote closer integration and interoperability between these languages. In particular we aim for easier interoperability between components whose interfaces are expressed using function types, discriminated unions and parametric polymorphism, regardless of the languages in which these components are implemented. We show that it is possible to add these constructs to an existing, “real world” intermediary language and that this allows corresponding subsets of constructs to be compiled uniformly, which in turn will allow programmers to use these constructs seamlessly between different languages. In this paper we discuss the motivations for our extensions, which are together called Extended {IL} ({ILX}), and describe them via examples. In this setting, many of the traditional responsibilities of the backend of a compiler must be moved to {ILX} and the execution environment, in particular those related to representation choices and low-level optimizations. We have modified a Haskell compiler to generate this language, and have implemented an assembler that translates the extensions to regular or polymorphic {CIL} code. I am very grateful to Nick Benton, Cedric Fournet, Andrew Kennedy, Andy Gordon, Simon Peyton Jones, Claudio Russo, Reuben Thomas, Andrew Tolmach and the anonymous referees for their help and advice with this work.},
+	pages = {53--72},
+	number = {1},
+	journaltitle = {Electronic Notes in Theoretical Computer Science},
+	shortjournal = {Electronic Notes in Theoretical Computer Science},
+	author = {Syme, Don},
+	urldate = {2021-04-21},
+	date = {2001-11-01},
+	langid = {english},
+	keywords = {.net generics, generics, ilx},
+}
+
+@article{wadler_why_1998,
+	title = {Why no one uses functional languages},
+	volume = {33},
+	issn = {0362-1340},
+	doi = {10.1145/286385.286387},
+	pages = {23--27},
+	number = {8},
+	journaltitle = {{SIGPLAN} notices},
+	author = {Wadler, Philip},
+	date = {1998},
+	note = {Place: New York, {NY}
+Publisher: {ACM}},
+	keywords = {Applied sciences ; Software ; Exact sciences and technology ; Language processing and microprogramming ; Computer science; control theory; systems ; Software engineering, fp, no one uses, wadler},
+}
+
+@article{syme_early_2020,
+	title = {The early history of F\#},
+	volume = {4},
+	issn = {2475-1421},
+	doi = {10.1145/3386325},
+	abstract = {This paper describes the genesis and early history of the F\# programming language. I start with the origins of strongly-typed functional programming ({FP}) in the 1970s, 80s and 90s. During the same period, Microsoft was founded and grew to dominate the software industry. In 1997, as a response to Java, Microsoft initiated internal projects which eventually became the .{NET} programming framework and the C\# language. From 1997 the worlds of academic functional programming and industry combined at Microsoft Research, Cambridge. The researchers engaged with the company through Project 7, the initial effort to bring multiple languages to .{NET}, leading to the initiation of .{NET} Generics in 1998 and F\# in 2002. F\# was one of several responses by advocates of strongly-typed functional programming to the "object-oriented tidal wave" of the mid-1990s. The development of the core features of F\# 1.0 happened from 2004-2007, and I describe the decision-making process that led to the "productization" of F\# by Microsoft in 2007-10 and the release of F\# 2.0. The origins of F\#'s characteristic features are covered: object programming, quotations, statically resolved type parameters, active patterns, computation expressions, async, units-of-measure and type providers. I describe key developments in F\# since 2010, including F\# 3.0-4.5, and its evolution as an open source, cross-platform language with multiple delivery channels. I conclude by examining some uses of F\# and the influence F\# has had on other languages so far.},
+	pages = {1--58},
+	issue = {{HOPL}},
+	journaltitle = {Proceedings of {ACM} on programming languages},
+	author = {Syme, Don},
+	date = {2020},
+	note = {Publisher: {ACM}},
+	keywords = {Pattern Matching ; Functional Programming ; Asynchronous Programming ; Programming Languages ; Type Providers ; Dimensions ; Object-oriented Programming ; Units of Measure, don syme, early history, f\#},
+}
+
+@online{noauthor_funksjonell_nodate,
+	title = {Funksjonell programmering / Functional Programming},
+	url = {https://www.uib.no/en/course/INF122},
+	titleaddon = {University of Bergen},
+	urldate = {2021-04-21},
+	langid = {english},
+	keywords = {inf122},
+}
+
+@inreference{noauthor_hindleymilner_2021,
+	title = {Hindley–Milner type system},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Hindley%E2%80%93Milner_type_system&oldid=1016004296},
+	abstract = {A Hindley–Milner ({HM}) type system is a classical type system for the lambda calculus with parametric polymorphism. It is also known as Damas–Milner or Damas–Hindley–Milner. It was first described by J. Roger Hindley and later rediscovered by Robin Milner. Luis Damas contributed a close formal analysis and proof of the method in his {PhD} thesis.Among {HM}'s more notable properties are its completeness and its ability to infer the most general type of a given program without programmer-supplied type annotations or other hints. Algorithm W is an efficient type inference method in practice, and has been successfully applied on large code bases, although it has a high theoretical complexity. {HM} is preferably used for functional languages. It was first implemented as part of the type system of the programming language {ML}. Since then, {HM} has been extended in various ways, most notably with type class constraints like those in Haskell.},
+	booktitle = {Wikipedia},
+	urldate = {2021-04-21},
+	date = {2021-04-04},
+	langid = {english},
+	note = {Page Version {ID}: 1016004296},
+	keywords = {hindley-milner},
+}
+
+@online{noauthor_programmeringssprak_nodate,
+	title = {Programmeringsspråk / Programming Languages},
+	url = {https://www.uib.no/en/course/INF222},
+	titleaddon = {University of Bergen},
+	urldate = {2021-04-21},
+	langid = {english},
+	keywords = {inf122},
+}
+
+@online{noauthor_hopl_nodate,
+	title = {{HOPL} {IV}},
+	url = {https://hopl4.sigplan.org/},
+	abstract = {{NEW}! (13 Sep 2020)  {HOPL} {IV} will be virtual, co-located with {PLDI} 2021 
+Since {HOPL} {IV} was postponed from its originally planned dates in June 2020, we have worked with {SIGPLAN} to co-locate {HOPL} {IV} with {PLDI} 2021. However, because of the continuing {COVID}-19 (coronavirus) situation, {SIGPLAN} has now determined that there will not be a physical meeting for {HOPL} or {PLDI} in June 2021; both conferences will be virtual, held online. 
+{HOPL} {IV} will be held Sunday, June 20, through Tuesday, June 22, 2021. The main {PLDI} conference will be Wednesday, June 23, through Friday, June 25. For othe ...},
+	urldate = {2021-04-21},
+	keywords = {hopl iv},
+}
+
+@inreference{noauthor_don_2021,
+	title = {Don Syme},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Don_Syme&oldid=1003588951},
+	abstract = {Don Syme is an Australian computer scientist and a Principal Researcher at Microsoft Research, Cambridge, U.K. He is the designer and architect of the F\# programming language, described by a reporter as being regarded as "the most original new face in computer languages since Bjarne Stroustrup developed C++ in the early 1980s."Earlier, Syme created  generics in the .{NET} Common Language Runtime, including the initial design of generics for the C\# programming language, along with others including Andrew Kennedy and later Anders Hejlsberg.  Kennedy, Syme and Dachuan Yu also formalized this widely used system.He holds a Ph.D. from the University of Cambridge, and is a member of the {WG}2.8 working group on functional programming. He is a co-author of the book Expert F\# 3.0.In the past he also worked on formal specification, interactive proof, automated verification and proof description languages.In 2015, he was honored with a Silver Medal from the Royal Academy of Engineering.},
+	booktitle = {Wikipedia},
+	urldate = {2021-04-21},
+	date = {2021-01-29},
+	langid = {english},
+	note = {Page Version {ID}: 1003588951},
+	keywords = {author, don syme},
+}
+
+@article{zimmermann_microservices_2017,
+	title = {Microservices tenets},
+	volume = {32},
+	issn = {1865-2042},
+	url = {https://doi.org/10.1007/s00450-016-0337-0},
+	doi = {10.1007/s00450-016-0337-0},
+	abstract = {Some microservices proponents claim that microservices form a new architectural style; in contrast, advocates of service-oriented architecture ({SOA}) argue that microservices merely are an implementation approach to {SOA}. This overview and vision paper first reviews popular introductions to microservices to identify microservices tenets. It then compares two microservices definitions and contrasts them with {SOA} principles and patterns. This analysis confirms that microservices indeed can be seen as a development- and deployment-level variant of {SOA}; such microservices implementations have the potential to overcome the deficiencies of earlier approaches to {SOA} realizations by employing modern software engineering paradigms and Web technologies such as domain-driven design, {RESTful} {HTTP}, {IDEAL} cloud application architectures, polyglot persistence, lightweight containers, a continuous {DevOps} approach to service delivery, and comprehensive but lean fault management. However, these paradigms and technologies also cause a number of additional design choices to be made and create new options for many “distribution classics” type of architectural decisions. As a result, the cognitive load for (micro-)services architects increases, as well as the design, testing and maintenance efforts that are required to benefit from an adoption of microservices. To initiate and frame the buildup of architectural knowledge supporting microservices projects, this paper compiles related practitioner questions; it also derives research topics from these questions. The paper concludes with a summarizing position statement: microservices constitute one particular implementation approach to {SOA} (service development and deployment).},
+	pages = {301--310},
+	number = {3},
+	journaltitle = {Computer Science - Research and Development},
+	shortjournal = {Comput Sci Res Dev},
+	author = {Zimmermann, Olaf},
+	urldate = {2021-04-09},
+	date = {2017-07-01},
+	langid = {english},
+	keywords = {pentest},
+}
+
+@article{nehme_securing_2019,
+	title = {Securing Microservices},
+	volume = {21},
+	issn = {1941-045X},
+	doi = {10.1109/MITP.2018.2876987},
+	abstract = {Microservices have drawn significant interest in recent years and are now successfully finding their way into different areas, from enterprise {IT} and the Internet of Things to critical applications. This paper discusses how microservices can be secured at different levels and stages considering a common software development lifecycle.},
+	pages = {42--49},
+	number = {1},
+	journaltitle = {{IT} Professional},
+	author = {Nehme, A. and Jesus, V. and Mahbub, K. and Abdallah, A.},
+	date = {2019-01},
+	note = {Conference Name: {IT} Professional},
+	keywords = {Logic gates, Product life cycle management, Security, Service-oriented architecture, Software development management, microservice, securing},
+}
+
+@inproceedings{nehme_fine-grained_2019,
+	location = {Cham},
+	title = {Fine-Grained Access Control for Microservices},
+	isbn = {978-3-030-18419-3},
+	doi = {10.1007/978-3-030-18419-3_19},
+	series = {Lecture Notes in Computer Science},
+	abstract = {Microservices-based applications are considered to be a promising paradigm for building large-scale digital systems due to their flexibility, scalability, and agility of development. To achieve the adoption of digital services, applications holding personal data must be secure while giving end-users as much control as possible. On the other hand, for software developers, the adoption of a security solution for microservices requires it to be easily adaptable to the application context and requirements while fully exploiting reusability of security components. This paper proposes a solution that targets key security challenges of microservice-based applications. Our approach relies on a coordination of security components, and offers a fine-grained access control in order to minimise the risks of token theft, session manipulation, and a malicious insider; it also renders the system resilient against confused deputy attacks. This solution is based on a combination of {OAuth} 2 and {XACML} open standards, and achieved through reusable security components integrated with microservices.},
+	pages = {285--300},
+	booktitle = {Foundations and Practice of Security},
+	publisher = {Springer International Publishing},
+	author = {Nehme, Antonio and Jesus, Vitor and Mahbub, Khaled and Abdallah, Ali},
+	editor = {Zincir-Heywood, Nur and Bonfante, Guillaume and Debbabi, Mourad and Garcia-Alfaro, Joaquin},
+	date = {2019},
+	langid = {english},
+	keywords = {Access control, Confused deputy attack, Gateways, Microservices, Security, access-control, microservice, oauth},
+}
+
+@online{noauthor_bolero_nodate,
+	title = {Bolero: F\# in {WebAssembly}},
+	url = {https://fsbolero.io/},
+	urldate = {2021-04-09},
+}
+
+@online{ratnakumar_brief_nodate,
+	title = {A brief F\# exploration},
+	url = {https://notes.srid.ca/fsharp-exploration},
+	abstract = {I have been writing full-stack web apps in Haskell using functional reactive programming (Reflex-{FRP}) for 3 years now. Curiosity stuck me as to find out what the {FP} languages other than Haskell had to offer in this area.},
+	titleaddon = {Sridhar Ratnakumar},
+	author = {Ratnakumar, Sridhar},
+	urldate = {2021-04-09},
+	keywords = {f\#, presentation},
+}
+
+@book{newman_building_2015,
+	edition = {1st edition},
+	title = {Building Microservices: Designing Fine-Grained Systems},
+	shorttitle = {Building Microservices},
+	abstract = {Distributed systems have become more fine-grained in the past 10 years, shifting from code-heavy monolithic applications to smaller, self-contained microservices. But developing these systems brings its own set of headaches. With lots of examples and practical advice, this book takes a holistic view of the topics that system architects and administrators must consider when building, managing, and evolving microservice architectures.Microservice technologies are moving quickly. Author Sam Newman provides you with a firm grounding in the concepts while diving into current solutions for modeling, integrating, testing, deploying, and monitoring your own autonomous services. You’ll follow a fictional company throughout the book to learn how building a microservice architecture affects a single domain.Discover how microservices allow you to align your system design with your organization’s {goalsLearn} options for integrating a service with the rest of your {systemTake} an incremental approach when splitting monolithic {codebasesDeploy} individual microservices through continuous {integrationExamine} the complexities of testing and monitoring distributed {servicesManage} security with user-to-service and service-to-service {modelsUnderstand} the challenges of scaling microservice architectures},
+	pagetotal = {426},
+	publisher = {O'Reilly Media},
+	author = {Newman, Sam},
+	date = {2015-02-02},
+}
+
+@article{watson_capsicum_nodate,
+	title = {Capsicum: practical capabilities for {UNIX}},
+	abstract = {Capsicum is a lightweight operating system capability and sandbox framework planned for inclusion in {FreeBSD} 9. Capsicum extends, rather than replaces, {UNIX} {APIs}, providing new kernel primitives (sandboxed capability mode and capabilities) and a userspace sandbox {API}. These tools support compartmentalisation of monolithic {UNIX} applications into logical applications, an increasingly common goal supported poorly by discretionary and mandatory access control. We demonstrate our approach by adapting core {FreeBSD} utilities and Google’s Chromium web browser to use Capsicum primitives, and compare the complexity and robustness of Capsicum with other sandboxing techniques.},
+	pages = {17},
+	author = {Watson, Robert N M and Anderson, Jonathan and Kennaway, Kris and Laurie, Ben},
+	langid = {english},
+}
+
+@online{hardt_oauth_nodate,
+	title = {The {OAuth} 2.0 Authorization Framework: Bearer Token Usage},
+	url = {https://tools.ietf.org/html/rfc6750},
+	shorttitle = {The {OAuth} 2.0 Authorization Framework},
+	author = {Hardt, Dick and Jones, Michael},
+	urldate = {2021-03-01},
+	langid = {english},
+}
+
+@online{noauthor_oauth_nodate,
+	title = {{OAuth} 2.0 Bearer Token Usage},
+	url = {https://oauth.net/2/bearer-tokens/},
+	urldate = {2021-03-01},
+}
+
+@inreference{noauthor_service-oriented_2021,
+	title = {Service-oriented architecture},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Service-oriented_architecture&oldid=1009591481},
+	abstract = {Service-oriented architecture ({SOA}) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network. A {SOA} service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online. {SOA} is also intended to be independent of vendors, products and technologies.A service has four properties according to one of many definitions of {SOA}:
+It logically represents a business activity with a specified outcome.
+It is self-contained.
+It is a black box for its consumers, meaning the consumer does not have to be aware of the service's inner workings.
+It may consist of other underlying services.Different services can be used in conjunction as a service mesh to provide the functionality of a large software application, a principle {SOA} shares with modular programming. Service-oriented architecture integrates distributed, separately maintained and deployed software components. It is enabled by technologies and standards that facilitate components' communication and cooperation over a network, especially over an {IP} network.
+{SOA} is related to the idea of an application programming interface ({API}), an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.  An {API} can be thought of as the service, and the {SOA} the architecture that allows the service to operate.},
+	booktitle = {Wikipedia},
+	urldate = {2021-03-01},
+	date = {2021-03-01},
+	langid = {english},
+	note = {Page Version {ID}: 1009591481},
+	keywords = {service-oriented arch, soa},
+}
+
+@online{bradley_json_nodate,
+	title = {{JSON} Web Token ({JWT})},
+	url = {https://tools.ietf.org/html/rfc7519},
+	author = {Bradley, John and Sakimura, Nat and Jones, Michael B.},
+	urldate = {2021-03-01},
+	langid = {english},
+}
+
+@online{noauthor_oauth_nodate-1,
+	title = {{OAuth} 2.0 — {OAuth}},
+	url = {https://oauth.net/2/},
+	urldate = {2021-03-01},
+}
+
+@book{siriwardena_microservices_2020,
+	title = {Microservices Security in Action},
+	isbn = {978-1-61729-595-9},
+	url = {https://www.manning.com/books/microservices-security-in-action},
+	abstract = {Unlike traditional enterprise applications, Microservices applications are collections of independent components that function as a system. Securing the messages, queues, and {API} endpoints requires new approaches to security both in the infrastructure and the code. Microservices Security in Action{\textless}/i{\textgreater} teaches you how to address microservices-specific security challenges throughout the system. This practical guide includes plentiful hands-on exercises using industry-leading open-source tools and examples using Java and Spring Boot.},
+	pagetotal = {616},
+	publisher = {Manning Publications},
+	author = {Siriwardena, Prabath and Dias, Nuwan},
+	urldate = {2021-03-01},
+	date = {2020-07},
+	langid = {english},
+}
+
+@book{madden_api_2020,
+	title = {{API} Security in Action},
+	isbn = {978-1-61729-602-4},
+	url = {https://www.manning.com/books/api-security-in-action},
+	abstract = {A web {API} is an efficient way to communicate with an application or service. However, this convenience opens your systems to new security risks. {API} Security in Action{\textless}/i{\textgreater} gives you the skills to build strong, safe {APIs} you can confidently expose to the world. Inside, you’ll learn to construct secure and scalable {REST} {APIs}, deliver machine-to-machine interaction in a microservices architecture, and provide protection in resource-constrained {IoT} (Internet of Things) environments.},
+	pagetotal = {576},
+	publisher = {Manning Publications},
+	author = {Madden, Niel},
+	urldate = {2021-03-01},
+	date = {2020-11},
+	langid = {english},
+}
+
+@book{richardson_microservices_2019,
+	location = {Shelter Island},
+	title = {Microservices patterns: with examples in Java},
+	isbn = {978-1-61729-454-9},
+	shorttitle = {Microservices patterns},
+	abstract = {Innhold: Escaping monolithic hell -- Decomposition strategies -- Interprocess communication in a microservice architecture -- Managing transactions with sagas -- Designing business logic in a microservice architecture -- Developing business logic with event sourcing -- Implementing queries in a microservice architecture -- External {API} patterns -- Testing microservices : part 1 -- Testing microservices : part 2 -- Developing production-ready services -- Deploying microservices -- Refactoring to microservices., Successfully developing microservices-based applications requires mastering a new set of architectural insights and practices. In this unique book, microservice architecture pioneer and Java Champion Chris Richardson collects, catalogues, and explains 44 patterns that solve problems such as service decomposition, transaction management, querying, and inter-service communication. "Microservices patterns" teaches you how to develop and deploy production-quality microservices-based applications. This invaluable set of design patterns builds on decades of distributed system experience, adding new patterns for writing services and composing them into systems that scale and perform reliably under real-world conditions. More than just a patterns catalog, this practical guide offers experience-driven advice to help you design, implement, test, and deploy your microservices-based application.},
+	publisher = {Manning Publications},
+	author = {Richardson, Chris},
+	date = {2019},
+	keywords = {Software architecture; Service-oriented architecture (Computer science); Service-oriented architecture (Computer science); Software architecture, manning, microservices},
+}
+
+@article{das_automated_2021,
+	title = {On automated {RBAC} assessment by constructing a centralized perspective for microservice mesh},
+	rights = {© 2021 Das et al. This is an open access article distributed under the terms of the Creative Commons Attribution License: https://creativecommons.org/licenses/by/4.0/ (the “License”), which permits unrestricted use, distribution, reproduction and adaptation in any medium and for any purpose provided that it is properly attributed. For attribution, the original author(s), title, publication source ({PeerJ} Computer Science) and either {DOI} or {URL} of the article must be cited. Notwithstanding the {ProQuest} Terms and Conditions, you may use this content in accordance with the terms of the License.},
+	url = {http://search.proquest.com/docview/2484414467/abstract/8BFDA7FFDCE14D02PQ/1},
+	doi = {http://dx.doi.org.pva.uib.no/10.7717/peerj-cs.376},
+	abstract = {It is important in software development to enforce proper restrictions on protected services and resources. Typically software services can be accessed through {REST} {API} endpoints where restrictions can be applied using the Role-Based Access Control ({RBAC}) model. However, {RBAC} policies can be inconsistent across services, and they require proper assessment. Currently, developers use penetration testing, which is a costly and cumbersome process for a large number of {APIs}. In addition, modern applications are split into individual microservices and lack a unified view in order to carry out automated {RBAC} assessment. Often, the process of constructing a centralized perspective of an application is done using Systematic Architecture Reconstruction ({SAR}). This article presents a novel approach to automated {SAR} to construct a centralized perspective for a microservice mesh based on their {REST} communication pattern. We utilize the generated views from {SAR} to propose an automated way to find {RBAC} inconsistencies.},
+	journaltitle = {{PeerJ} Computer Science},
+	author = {Das, Dipta and Walker, Andrew and Bushong, Vincent and Svacina, Jan and Cerny, Tomas and Matyas, Vashek},
+	urldate = {2021-03-01},
+	date = {2021-02-01},
+	note = {Place: San Diego, United States
+Publisher: {PeerJ}, Inc.},
+	keywords = {Access control, Authorization, Microservices, {RBAC}, {REST}, Security, Static code analysis, Systematic architecture reconstruction},
+}
+
+@online{hardy_confused_2003,
+	title = {The Confused Deputy},
+	url = {https://web.archive.org/web/20031205034929/http://www.cis.upenn.edu/~KeyKOS/ConfusedDeputy.html},
+	author = {Hardy, Norm},
+	urldate = {2020-09-14},
+	date = {2003-12-05},
+}
+
+@online{noauthor_xyz_nodate,
+	title = {{XYZ}: Transactional Authorization},
+	url = {https://oauth.xyz/},
+	abstract = {A new authorization protocol based on concepts from {OAuth}2 and its extensions.},
+	urldate = {2021-01-25},
+	langid = {english},
+}
+
+@online{noauthor_6_nodate,
+	title = {6 Self-contained tokens and {JWTs} · {API} Security in Action epub},
+	url = {https://livebook.manning.com/book/api-security-in-action/chapter-9/},
+	abstract = {Sharing individual resources via capability {URLs}; Avoiding confused deputy attacks against identity-based access control; Integrating capabilities with a {RESTful} {API} design; Hardening capabilities with macaroons and contextual caveats;},
+	urldate = {2021-01-25},
+	langid = {american},
+}
+
+@online{noauthor_macaroons_nodate,
+	title = {Macaroons Playground},
+	url = {http://macaroons.io/},
+	urldate = {2021-01-25},
+}
+
+@inproceedings{birgisson_macaroons_2014,
+	title = {Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud},
+	shorttitle = {Macaroons},
+	booktitle = {Network and Distributed System Security Symposium},
+	author = {Birgisson, Arnar and Politz, Joe Gibbs and Erlingsson, Úlfar and Taly, Ankur and Vrable, Michael and Lentczner, Mark},
+	date = {2014},
+}
+
+@inproceedings{birgisson_macaroons_2014-1,
+	location = {San Diego, {CA}},
+	title = {Macaroons: Cookies with Contextual Caveats for Decentralized Authorization in the Cloud},
+	isbn = {978-1-891562-35-8},
+	url = {https://www.ndss-symposium.org/ndss2014/programme/macaroons-cookies-contextual-caveats-decentralized-authorization-cloud/},
+	doi = {10.14722/ndss.2014.23212},
+	shorttitle = {Macaroons},
+	abstract = {Controlled sharing is fundamental to distributed systems; yet, on the Web, and in the Cloud, sharing is still based on rudimentary mechanisms. More ﬂexible, decentralized cryptographic authorization credentials have not been adopted, largely because their mechanisms have not been incrementally deployable, simple enough, or efﬁcient enough to implement across the relevant systems and devices.},
+	eventtitle = {Network and Distributed System Security Symposium},
+	booktitle = {Proceedings 2014 Network and Distributed System Security Symposium},
+	publisher = {Internet Society},
+	author = {Birgisson, Arnar and Politz, Joe Gibbs and Erlingsson, Úlfar and Taly, Ankur and Vrable, Michael and Lentczner, Mark},
+	urldate = {2021-01-25},
+	date = {2014},
+	langid = {english},
+}
+
+@article{miller_capability_nodate,
+	title = {Capability Myths Demolished},
+	abstract = {We address three common misconceptions about capability-based systems: the Equivalence Myth (access control list systems and capability systems are formally equivalent), the Confinement Myth (capability systems cannot enforce confinement), and the Irrevocability Myth (capability-based access cannot be revoked). The Equivalence Myth obscures the benefits of capabilities as compared to access control lists, while the Confinement Myth and the Irrevocability Myth lead people to see problems with capabilities that do not actually exist.},
+	pages = {15},
+	author = {Miller, Mark S and Yee, Ka-Ping and Shapiro, Jonathan},
+	langid = {english},
+}
+
+@online{kamaruzzaman_microservice_2020,
+	title = {Microservice Architecture and its 10 Most Important Design Patterns},
+	url = {https://towardsdatascience.com/microservice-architecture-and-its-10-most-important-design-patterns-824952d7fa41},
+	abstract = {Microservice Architecture, Database per Microservice, Event Sourcing, {CQRS}, Saga, {BFF}, {API} Gateway, Strangler, Circuit Breaker…},
+	titleaddon = {Medium},
+	author = {Kamaruzzaman, Md},
+	urldate = {2020-12-18},
+	date = {2020-12-15},
+	langid = {english},
+	keywords = {architecture, design, microservice},
+}
+
+@online{shah_microservice_2020,
+	title = {Microservice Architecture — Communication \& Design Patterns},
+	url = {https://medium.com/dev-genius/microservice-architecture-communication-design-patterns-70b37beec294},
+	abstract = {Handling inter-process communication \& execution flow in microservices},
+	titleaddon = {Medium},
+	author = {Shah, Bibek},
+	urldate = {2020-11-21},
+	date = {2020-11-15},
+	langid = {english},
+}
+
+@online{noauthor_understanding_2018,
+	title = {Understanding Microservices: From Idea To Starting Line},
+	url = {https://www.freecodecamp.org/news/microservices-from-idea-to-starting-line-ae5317a6ff02/},
+	shorttitle = {Understanding Microservices},
+	abstract = {by Michael Douglass Understanding Microservices: From Idea To Starting {LineOver} the last two months, I have invested most of my free time learning the complete ins-and-outs of what the microservices architecture really entails. After much reading, note taking, white-boarding, and many hours writing, I feel like I have achieved a},
+	titleaddon = {{freeCodeCamp}.org},
+	urldate = {2020-11-20},
+	date = {2018-04-03},
+	langid = {english},
+}
+
+@online{lavasani_restful_2019,
+	title = {{RESTful} {APIs}: Tutorial of {OpenAPI} Specification},
+	url = {https://medium.com/@amirm.lavasani/restful-apis-tutorial-of-openapi-specification-eeada0e3901d},
+	shorttitle = {{RESTful} {APIs}},
+	abstract = {As we are moving towards service-based applications and cutting-edge microservices, the necessity of having a standard interface…},
+	titleaddon = {Medium},
+	author = {Lavasani, Amir},
+	urldate = {2020-11-17},
+	date = {2019-09-22},
+	langid = {english},
+}
+
+@inreference{noauthor_software_2020,
+	title = {Software architecture},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Software_architecture&oldid=984319959},
+	abstract = {Software architecture refers to the fundamental structures of a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations. The architecture of a software system is a metaphor, analogous to the architecture of a building. It functions as a blueprint for the system and the developing project, laying out the tasks necessary to be executed by the design teams.Software architecture is about making fundamental structural choices that are costly to change once implemented. Software architecture choices include specific structural options from possibilities in the design of the software. For example, the systems that controlled the Space Shuttle launch vehicle had the requirement of being very fast and very reliable. Therefore, an appropriate real-time computing language would need to be chosen. Additionally, to satisfy the need for reliability the choice could be made to have multiple redundant and independently produced copies of the program, and to run these copies on independent hardware while cross-checking results.
+Documenting software architecture facilitates communication between stakeholders, captures early decisions about the high-level design, and allows reuse of design components between projects.},
+	booktitle = {Wikipedia},
+	urldate = {2020-11-16},
+	date = {2020-10-19},
+	langid = {english},
+	note = {Page Version {ID}: 984319959},
+}
+
+@inreference{noauthor_representational_2020,
+	title = {Representational state transfer},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Representational_state_transfer&oldid=988993093},
+	abstract = {Representational state transfer ({REST}) is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the {REST} architectural style, called {RESTful} Web services, provide interoperability between computer systems on the internet. {RESTful} Web services allow the requesting systems to access and manipulate textual representations of Web resources by using a uniform and predefined set of stateless operations. Other kinds of Web services, such as {SOAP} Web services, expose their own arbitrary sets of operations."Web resources" were first defined on the World Wide Web as documents or files identified by their {URLs}. However, today they have a much more generic and abstract definition that encompasses every thing, entity, or action that can be identified, named, addressed, handled, or performed, in any way whatsoever, on the Web. In a {RESTful} Web service, requests made to a resource's {URI} will elicit a response with a payload formatted in {HTML}, {XML}, {JSON}, or some other format. The response can confirm that some alteration has been made to the resource state, and the response can provide hypertext links to other related resources. When {HTTP} is used, as is most common, the operations ({HTTP} methods) available are {GET}, {HEAD}, {POST}, {PUT}, {PATCH}, {DELETE}, {CONNECT}, {OPTIONS} and {TRACE}.By using a stateless protocol and standard operations, {RESTful} systems aim for fast performance, reliability, and the ability to grow by reusing components that can be managed and updated without affecting the system as a whole, even while it is running.
+The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation. Fielding's dissertation explained the {REST} principles that were known as the "{HTTP} object model" beginning in 1994, and were used in designing the {HTTP} 1.1 and Uniform Resource Identifiers ({URI}) standards. The term is intended to evoke an image of how a well-designed Web application behaves: it is a network of Web resources (a virtual state-machine) where the user progresses through the application by selecting resource identifiers such as http://www.example.com/articles/21 and resource operations such as {GET} or {POST} (application state transitions), resulting in the next resource's representation (the next application state) being transferred to the end user for their use.},
+	booktitle = {Wikipedia},
+	urldate = {2020-11-16},
+	date = {2020-11-16},
+	langid = {english},
+	note = {Page Version {ID}: 988993093},
+}
+
+@inreference{noauthor_modelviewcontroller_2020,
+	title = {Model–view–controller},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Model%E2%80%93view%E2%80%93controller&oldid=987046188},
+	abstract = {Model–view–controller (usually known as {MVC}) is a software design pattern commonly used for developing user interfaces that divides the related program logic into three interconnected elements. This is done to separate internal representations of information from the ways information is presented to and accepted from the user.Traditionally used for desktop graphical user interfaces ({GUIs}), this pattern has become popular for designing web applications. Popular programming languages like {JavaScript}, Python,  Object Pascal/Delphi, Ruby, {PHP}, Java, C\#, and Swift have {MVC} frameworks that are used for web or mobile application development straight out of the box.},
+	booktitle = {Wikipedia},
+	urldate = {2020-11-16},
+	date = {2020-11-04},
+	langid = {english},
+	note = {Page Version {ID}: 987046188},
+}
+
+@inreference{noauthor_event-driven_2020,
+	title = {Event-driven architecture},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Event-driven_architecture&oldid=968864303},
+	abstract = {Event-driven architecture ({EDA}) is a software architecture paradigm promoting the production, detection, consumption of, and reaction to events.
+An event can be defined as "a significant change in state". For example, when a consumer purchases a car, the car's state changes from "for sale" to "sold". A car dealer's system architecture may treat this state change as an event whose occurrence can be made known to other applications within the architecture. From a formal perspective, what is produced, published, propagated, detected or consumed is a (typically asynchronous) message called the event notification, and not the event itself, which is the state change that triggered the message emission. Events do not travel, they just occur. However, the term event is often used metonymically to denote the notification message itself, which may lead to some confusion. This is due to Event-Driven architectures often being designed atop message-driven architectures, where such communication pattern requires one of the inputs to be text-only, the message, to differentiate how each communication should be handled.
+This architectural pattern may be applied by the design and implementation of applications and systems that transmit events among loosely coupled software components and services. An event-driven system typically consists of event emitters (or agents), event consumers (or sinks), and event channels. Emitters have the responsibility to detect, gather, and transfer events. An Event Emitter does not know the consumers of the event, it does not even know if a consumer exists, and in case it exists, it does not know how the event is used or further processed. Sinks have the responsibility of applying a reaction as soon as an event is presented. The reaction might or might not be completely provided by the sink itself. For instance, the sink might just have the responsibility to filter, transform and forward the event to another component or it might provide a self-contained reaction to such event. Event channels are conduits in which events are transmitted from event emitters to event consumers. The knowledge of the correct distribution of events is exclusively present within the event channel. The physical implementation of event channels can be based on traditional components such as message-oriented middleware or point-to-point communication which might require a more appropriate transactional executive framework.
+Building systems around an event-driven architecture simplifies horizontal scalability in distributed computing models and makes them more resilient to failure. This is because application state can be copied across multiple parallel snapshots for high-availability. New events can be initiated anywhere, but more importantly propagate across the network of data stores updating each as they arrive. Adding extra nodes becomes trivial as well: you can simply take a copy of the application state, feed it a stream of events and run with it. Event-driven architecture can complement service-oriented architecture ({SOA}) because services can be activated by triggers fired on incoming events.
+This paradigm is particularly useful whenever the sink does not provide any self-contained executive.
+{SOA} 2.0 evolves the implications {SOA} and {EDA} architectures provide to a richer, more robust level by leveraging previously unknown causal relationships to form a new event pattern. This new business intelligence pattern triggers further autonomous human or automated processing that adds exponential value to the enterprise by injecting value-added information into the recognized pattern which could not have been achieved previously.},
+	booktitle = {Wikipedia},
+	urldate = {2020-11-16},
+	date = {2020-07-22},
+	langid = {english},
+	note = {Page Version {ID}: 968864303},
+}
+
+@inreference{noauthor_service-oriented_2020,
+	title = {Service-oriented architecture},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Service-oriented_architecture&oldid=987305999},
+	abstract = {Service-oriented architecture ({SOA}) is a style of software design where services are provided to the other components by application components, through a communication protocol over a network. A {SOA} service is a discrete unit of functionality that can be accessed remotely and acted upon and updated independently, such as retrieving a credit card statement online. {SOA} is also intended to be independent of vendors, products and technologies.A service has four properties according to one of many definitions of {SOA}:
+It logically represents a business activity with a specified outcome.
+It is self-contained.
+It is a black box for its consumers, meaning the consumer does not have to be aware of the service's inner workings.
+It may consist of other underlying services.Different services can be used in conjunction to provide the functionality of a large software application, a principle {SOA} shares with modular programming. Service-oriented architecture integrates distributed, separately maintained and deployed software components. It is enabled by technologies and standards that facilitate components' communication and cooperation over a network, especially over an {IP} network.
+{SOA} is related to the idea of an application programming interface ({API}), an interface or communication protocol between different parts of a computer program intended to simplify the implementation and maintenance of software.  An {API} can be thought of as the service, and the {SOA} the architecture that allows the service to operate.},
+	booktitle = {Wikipedia},
+	urldate = {2020-11-16},
+	date = {2020-11-06},
+	langid = {english},
+	note = {Page Version {ID}: 987305999},
+}
+
+@online{noauthor_microsoftapi-guidelines_nodate,
+	title = {microsoft/api-guidelines},
+	url = {https://github.com/microsoft/api-guidelines},
+	abstract = {Microsoft {REST} {API} Guidelines. Contribute to microsoft/api-guidelines development by creating an account on {GitHub}.},
+	titleaddon = {{GitHub}},
+	urldate = {2020-11-09},
+	langid = {english},
+}
+
+@online{doodlemania2_domain_nodate,
+	title = {Domain analysis for microservices - Azure Architecture Center},
+	url = {https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis},
+	abstract = {This article shows a domain-driven approach to designing microservices so that each service follows the general rule of doing just one thing.},
+	author = {doodlemania2},
+	urldate = {2020-11-09},
+	langid = {english},
+}
+
+@online{doodlemania2_microservices_nodate,
+	title = {Microservices architecture style - Azure Application Architecture Guide},
+	url = {https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices},
+	abstract = {Describes benefits, challenges, and best practices for microservices architectures on Azure.},
+	author = {doodlemania2},
+	urldate = {2020-11-09},
+	langid = {english},
+}
+
+@online{bradley_oauth_nodate,
+	title = {{OAuth} 2.0 Security Best Current Practice},
+	url = {https://tools.ietf.org/html/draft-ietf-oauth-security-topics-16},
+	author = {Bradley, John and Labunets, Andrey and Lodderstedt, Torsten and Fett, Daniel},
+	urldate = {2020-11-05},
+	langid = {english},
+	keywords = {jwt, oauth, security, threaths},
+}
+
+@online{lodderstedt_oauth_nodate,
+	title = {{OAuth} 2.0 Threat Model and Security Considerations},
+	url = {https://tools.ietf.org/html/rfc6819},
+	author = {Lodderstedt, Torsten and {McGloin}, Mark and Hunt, Phil},
+	urldate = {2020-11-05},
+	langid = {english},
+}
+
+@online{noauthor_microservices_nodate,
+	title = {Microservices — architecture nihilism in minimalism's clothes - Blog by Vasco Figueira},
+	url = {https://vlfig.me/posts/microservices},
+	abstract = {How and why we took the ideas behind Microservices too far and what to do about it.},
+	titleaddon = {Microservices — architecture nihilism in minimalism's clothes - Blog by Vasco Figueira},
+	urldate = {2020-11-03},
+	langid = {english},
+}
+
+@online{noauthor_levealder_nodate,
+	title = {Levealder, menn},
+	url = {https://www.fn.no/Statistikk/Levealder-menn},
+	abstract = {Forventet levealder for menn, beregnet med utgangspunkt i aldersspesifikke dødsrater},
+	urldate = {2020-10-22},
+	langid = {norwegian},
+}
+
+@online{noauthor_microservices_nodate-1,
+	title = {Microservices Security in Action},
+	url = {https://www.manning.com/books/microservices-security-in-action},
+	abstract = {Unlike traditional enterprise applications, Microservices applications are collections of independent components that function as a system. Securing the messages, queues, and {API} endpoints requires new approaches to security both in the infrastructure and the code. Microservices Security in Action{\textless}/i{\textgreater} teaches you how to address microservices-specific security challenges throughout the system. This practical guide includes plentiful hands-on exercises using industry-leading open-source tools and examples using Java and Spring Boot.},
+	titleaddon = {Manning Publications},
+	urldate = {2020-10-15},
+	langid = {english},
+}
+
+@online{noauthor_spring_nodate,
+	title = {Spring Boot},
+	url = {https://spring.io/projects/spring-boot},
+	urldate = {2020-10-08},
+	keywords = {documentation},
+}
+
+@online{deshpande_roles_2020,
+	title = {The Roles of Service Mesh and {API} Gateways in Microservice Architecture},
+	url = {https://medium.com/better-programming/the-roles-of-service-mesh-and-api-gateways-in-microservice-architecture-f6e7dfd61043},
+	abstract = {And how to make the most of both},
+	titleaddon = {Medium},
+	author = {Deshpande, Tanmay},
+	urldate = {2020-10-06},
+	date = {2020-10-03},
+	langid = {english},
+}
+
+@online{noauthor_habitat_nodate,
+	title = {Habitat Chronicles: What Are Capabilities?},
+	url = {http://habitatchronicles.com/2017/05/what-are-capabilities/},
+	urldate = {2020-09-14},
+}
+
+@book{yarygina_exploring_2018,
+	title = {Exploring Microservice Security},
+	rights = {Copyright the author. All rights reserved.},
+	isbn = {978-82-308-3665-1},
+	url = {https://bora.uib.no/handle/1956/18696},
+	abstract = {Due to rapid transitioning towards digitalized society and extended reliance on interconnected 
+digital systems, computer security is a field of growing importance. 
+Software that we build should be secure, resilient and reliable both against accidents 
+and targeted attacks. 
+The microservice architecture, or concisely microservices, is a recent trend in software 
+engineering and system design. Microservices are a way to build scalable and 
+flexible distributed applications as a collection of loosely coupled services communicating 
+over a network. 
+In this thesis, we study the microservice architectural style from a security perspective. 
+The contributions are as follows. We show that microservice architecture 
+has inherent security benefits in terms of isolation and diversity. We explore how 
+these inherent security benefits of microservices can be improved even further by 
+maximizing interface security, avoiding unnecessary node relationships, introducing 
+asymmetric node strength, and using N-version programming. 
+We design a taxonomy of microservice security giving an overview of the existing 
+security threats and mitigations. In this thesis, we argue that the defense in depth 
+principle should be adopted for microservices. We discuss several prominent microservice 
+security trends in industry. Furthermore, we present an open source prototype 
+security framework for microservices. 
+We take the defense in depth principle even further by focusing our attention on 
+the self-protection and adaptive security properties. Also, we propose an architecture 
+of an automated intrusion response system for microservices that uses gametheoretic 
+approach. Finally, we analyze the security properties of the {REST} style, 
+the most typical microservice integration solution.},
+	publisher = {The University of Bergen},
+	author = {Yarygina, Tetiana},
+	urldate = {2020-09-11},
+	date = {2018-10-10},
+	note = {Accepted: 2018-11-02T14:55:22Z},
+}
+
+@online{noauthor_paseto_nodate,
+	title = {{PASETO}},
+	url = {https://paseto.io/},
+	urldate = {2020-09-09},
+}
+
+@online{noauthor_scalable_nodate,
+	title = {Scalable Web Architectures Concepts \& Design {\textbar} by Dung Le {\textbar} Distributed Knowledge {\textbar} Medium},
+	url = {https://medium.com/distributed-knowledge/scalable-web-architectures-concepts-design-6fd372ee4541},
+	urldate = {2020-08-23},
+}
+
+@online{nishanil_api_nodate,
+	title = {The {API} gateway pattern versus the direct client-to-microservice communication},
+	url = {https://docs.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/direct-client-to-microservice-communication-versus-the-api-gateway-pattern},
+	abstract = {Understand the differences and the uses of the {API} gateway pattern and the direct client-to-microservice communication.},
+	author = {nishanil},
+	urldate = {2020-08-23},
+	langid = {english},
+}
+
+@book{koscielny_modern_2013,
+	location = {Berlin, Heidelberg},
+	edition = {2013},
+	title = {Modern Cryptography Primer: Theoretical Foundations and Practical Applications},
+	isbn = {978-3-642-41385-8},
+	shorttitle = {Modern Cryptography Primer},
+	abstract = {Cryptography has experienced rapid development, with major advances recently in both secret and public key ciphers, cryptographic hash functions, cryptographic algorithms and multiparty protocols, including their software engineering correctness verification, and various methods of cryptanalysis. After introducing the basic mathematical and computational complexity concepts, and some historical context, including the story of Enigma, the authors explain symmetric and asymmetric cryptography, electronic signatures and hash functions, {PGP} systems, public key infrastructures, cryptographic protocols, and applications in network security. In each case the text presents the key technologies, algorithms, and protocols, along with methods of design and analysis, while the content is characterized by a visual style and all algorithms are presented in readable pseudocode or using simple graphics and diagrams. --},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Kościelny, Czesław and Kurkowski, Mirosław and Srebrny, Marian},
+	date = {2013},
+	keywords = {Computer Science, Computer Systems Organization and Communication Networks, Data Structures, Cryptology and Information Theory, E-Commerce/E-Business, Systems and Data Security},
+}
+
+@book{adams_understanding_2003,
+	location = {Boston},
+	edition = {2nd ed.},
+	title = {Understanding {PKI}: concepts, standards, and deployment considerations},
+	isbn = {978-0-672-32391-1},
+	shorttitle = {Understanding {PKI}},
+	pagetotal = {xxix+322},
+	publisher = {Addison-Wesley},
+	author = {Adams, Carlisle},
+	editora = {Lloyd, Steve},
+	editoratype = {collaborator},
+	date = {2003},
+	keywords = {Business enterprises Computer networks Security measures, Computer networks Security measures, Datasikkerhet, Public key infrastructure (Computer security), datamaskinnett, datanett, datasikring, sikkerhet},
+}
+
+@book{garfinkel_pgp:_1995,
+	location = {Sebastopol, Calif},
+	title = {{PGP}: Pretty Good Privacy},
+	isbn = {978-1-56592-098-9},
+	shorttitle = {{PGP}},
+	pagetotal = {xxxiii+393},
+	publisher = {O'Reilly},
+	author = {Garfinkel, Simson},
+	date = {1995},
+	keywords = {Cryptography, Datakryptering, Kryptering, Kryptifisering, Kryptoanalyse, Kryptografi, Kryptologi, {PGP}, Pretty Good Privacy, datasikkerhet, kryptering, kryptografi},
+}
+
+@book{garfinkel_pgp:_1995-1,
+	title = {{PGP}: Pretty Good Privacy: 0636920920984: Computer Science Books @ Amazon.com},
+	isbn = {1-56592-098-8},
+	url = {https://www.amazon.com/PGP-Pretty-Privacy-Simson-Garfinkel/dp/1565920988/ref=sr_1_5?ie=UTF8&qid=1539082410&sr=8-5&keywords=PGP},
+	abstract = {Encryption for evryone, Pretty good Privacy},
+	pagetotal = {393},
+	publisher = {O'Reilly \& Associates, Inc},
+	author = {Garfinkel, Simson},
+	urldate = {2018-10-09},
+	date = {1995},
+}
+
+@book{koscielny_modern_2013-1,
+	location = {Berlin, Heidelberg},
+	edition = {2013},
+	title = {Modern Cryptography Primer: Theoretical Foundations and Practical Applications},
+	isbn = {978-3-642-41385-8},
+	shorttitle = {Modern Cryptography Primer},
+	abstract = {Cryptography has experienced rapid development, with major advances recently in both secret and public key ciphers, cryptographic hash functions, cryptographic algorithms and multiparty protocols, including their software engineering correctness verification, and various methods of cryptanalysis. After introducing the basic mathematical and computational complexity concepts, and some historical context, including the story of Enigma, the authors explain symmetric and asymmetric cryptography, electronic signatures and hash functions, {PGP} systems, public key infrastructures, cryptographic protocols, and applications in network security. In each case the text presents the key technologies, algorithms, and protocols, along with methods of design and analysis, while the content is characterized by a visual style and all algorithms are presented in readable pseudocode or using simple graphics and diagrams. --},
+	publisher = {Springer Berlin Heidelberg},
+	author = {Kościelny, Czesław and Kurkowski, Mirosław and Srebrny, Marian},
+	date = {2013},
+	keywords = {Computer Science, Computer Systems Organization and Communication Networks, Data Structures, Cryptology and Information Theory, E-Commerce/E-Business, Systems and Data Security},
+}
+
+@book{adams_understanding_nodate,
+	title = {Understanding {PKI}: Concepts, Standards, and Deployment Considerations (paperback) (2nd Edition): Carlisle Adams, Steve Lloyd: 9780321743091: Amazon.com: Books},
+	url = {https://www.amazon.com/Understanding-PKI-Standards-Deployment-Considerations/dp/0321743091/ref=sr_1_1?ie=UTF8&qid=1538927280&sr=8-1&keywords=understanding+pki},
+	abstract = {Convepts, Standards, and Deployment Considerations},
+	author = {Adams, Carlisle and Lloyd, Steve},
+	urldate = {2018-10-07},
+}
+
+@online{noauthor_introduction_nodate,
+	title = {Introduction to {PGP} encryption},
+	url = {http://www.lugod.org/presentations/pgp/index.html},
+	urldate = {2018-10-08},
+}
+
+@online{noauthor_origins_nodate,
+	title = {Origins and Ideas of {PGP}},
+	url = {http://www.lugod.org/presentations/pgp/history.html},
+	urldate = {2018-10-08},
+}
+
+@online{noauthor_pgp_nodate,
+	title = {{PGP} Timeline},
+	url = {http://www.cypherspace.org/adam/timeline/},
+	urldate = {2018-10-08},
+}
+
+@article{katwala_were_2018,
+	title = {We're calling it: {PGP} is dead},
+	issn = {1357-0978},
+	url = {https://www.wired.co.uk/article/efail-pgp-vulnerability-outlook-thunderbird-smime},
+	shorttitle = {We're calling it},
+	abstract = {The Efail vulnerability punches a hole in the encrypted {PGP} protocols. For the best secure messaging, you should turn to the Signal app},
+	journaltitle = {Wired {UK}},
+	author = {Katwala, Amit},
+	urldate = {2018-10-05},
+	date = {2018-05-17},
+	keywords = {Hacking, Security},
+}
+
+@online{raicea_how_2017,
+	title = {How Pretty Good Privacy works, and how you can use it for secure communication},
+	url = {https://medium.freecodecamp.org/how-does-pretty-good-privacy-work-3f5f75ecea97},
+	abstract = {Sending sensitive information through the internet is always nerve-racking. What if somebody else sees the bank information I’m sending? Or…},
+	titleaddon = {{freeCodeCamp}.org},
+	author = {Raicea, Radu},
+	urldate = {2018-10-05},
+	date = {2017-10-08},
+}
+
+@online{noauthor_where_nodate,
+	title = {{WHERE} {TO} {GET} {PGP} (Pretty Good Privacy)},
+	url = {https://cryptography.org/getpgp.htm},
+	urldate = {2018-10-05},
+	keywords = {inf143, pgp},
+}
+
+@inreference{noauthor_pretty_2018,
+	title = {Pretty Good Privacy},
+	rights = {Creative Commons Attribution-{ShareAlike} License},
+	url = {https://en.wikipedia.org/w/index.php?title=Pretty_Good_Privacy&oldid=857063711},
+	abstract = {Pretty Good Privacy ({PGP}) is an encryption program that provides cryptographic privacy and authentication for data communication. {PGP} is used for signing, encrypting, and decrypting texts, e-mails, files, directories, and whole disk partitions and to increase the security of e-mail communications. Phil Zimmermann developed {PGP} in 1991.{PGP} and similar software follow the {OpenPGP} standard ({RFC} 4880) for encrypting and decrypting data.},
+	booktitle = {Wikipedia},
+	urldate = {2018-10-05},
+	date = {2018-08-29},
+	langid = {english},
+	note = {Page Version {ID}: 857063711},
+}
+
+@book{erwig_once_2017,
+	location = {Cambridge, Massachusetts ; London, England},
+	title = {Once Upon an Algorithm: How Stories Explain Computing},
+	isbn = {978-0-262-03663-4},
+	shorttitle = {Once Upon an Algorithm},
+	abstract = {How Hansel and Gretel, Sherlock Holmes, the movie Groundhog Day, Harry Potter, and other familiar stories illustrate the concepts of computing.Picture a computer scientist, staring at a screen and clicking away frantically on a keyboard, hacking into a system, or perhaps developing an app. Now delete that picture. In Once Upon an Algorithm, Martin Erwig explains computation as something that takes place beyond electronic computers, and computer science as the study of systematic problem solving. Erwig points out that many daily activities involve problem solving. Getting up in the morning, for example: You get up, take a shower, get dressed, eat breakfast. This simple daily routine solves a recurring problem through a series of well-defined steps. In computer science, such a routine is called an algorithm.Erwig illustrates a series of concepts in computing with examples from daily life and familiar stories. Hansel and Gretel, for example, execute an algorithm to get home from the forest. The movie Groundhog Day illustrates the problem of unsolvability; Sherlock Holmes manipulates data structures when solving a crime; the magic in Harry Potter's world is understood through types and abstraction; and Indiana Jones demonstrates the complexity of searching. Along the way, Erwig also discusses representations and different ways to organize data; “intractable” problems; language, syntax, and ambiguity; control structures, loops, and the halting problem; different forms of recursion; and rules for finding errors in algorithms.This engaging book explains computation accessibly and shows its relevance to daily life. Something to think about next time we execute the algorithm of getting up in the morning.},
+	pagetotal = {336},
+	publisher = {The {MIT} Press},
+	author = {Erwig, Martin},
+	date = {2017-08-11},
+}
+
+@online{vaaje-kolstad_bioteknologi_2013,
+	title = {bioteknologi – lovgivning},
+	url = {https://snl.no/bioteknologi_-_lovgivning#-Genteknologiloven},
+	author = {Vaaje-Kolstad, Gustav},
+	urldate = {2017-10-26},
+	date = {2013},
+}
+
+@online{azad_review_2014,
+	title = {Review Article: Gene Technology for Papaya Ringspot Virus Disease Management},
+	url = {https://www.hindawi.com/journals/tswj/2014/768038/},
+	author = {Azad, Abul Kalam and Amin, Latifah and Sidik, Nik Marzuki},
+	urldate = {2017-10-26},
+	date = {2014},
+}
+
+@book{noauthor_food_2016,
+	title = {Food Evolution},
+	publisher = {Black Valley Films},
+	date = {2016},
+}
+
+@online{dissen_genomredigering_2017,
+	title = {genomredigering},
+	url = {https://sml.snl.no/genomredigering},
+	author = {Dissen, Erik},
+	urldate = {2017-10-20},
+	date = {2017},
+}
+
+@online{alnes_hypotetisk.deduktiv_2017,
+	title = {hypotetisk.deduktiv metode},
+	url = {https://snl.no/hypotetisk-deduktiv_metode},
+	author = {Alnes, Jan Harald},
+	urldate = {2017-10-26},
+	date = {2017},
+}
+@online{nesse_monsanto_2009,
+	title = {Monsanto Company},
+	url = {https://snl.no/Monsanto_Company},
+	author = {Nesse, Norvald},
+	urldate = {2017-10-26},
+	date = {2009},
+}
+
+@online{larsen_moores_2015,
+	title = {Moores lov},
+	url = {https://snl.no/Moores_lov},
+	author = {Larsen, Bjørn B.},
+	urldate = {2017-10-20},
+	date = {2015},
+}
+
+@online{holtebekk_kvantefysikk_2017,
+	title = {kvantefysikk},
+	url = {https://snl.no/kvantefysikk},
+	author = {Holtebekk, Trygve and Eeg, Jan Olav and Hansen, Jan-Petter},
+	urldate = {2017-10-20},
+	date = {2017},
+}
+
+@online{press_release_intel_2017,
+	title = {Intel Delivers 17-Qubit Superconducting Chip with Advanced Packaging to {QuTech}},
+	url = {https://newsroom.intel.com/news/intel-delivers-17-qubit-superconducting-chip-advanced-packaging-qutech/},
+	author = {Press Release, Intel},
+	urldate = {2017-10-20},
+	date = {2017},
+}
+
+@online{bromback_svenske_2017,
+	title = {Svenske forskere får nær en milliard kroner til å utvikle kvantedatamaskin},
+	url = {https://www.digi.no/artikler/svenske-forskere-far-naer-en-milliard-kroner-til-a-utvikle-en-kvantedatamaskin/412134},
+	author = {Bromback, Harald},
+	urldate = {2017-11-15},
+	date = {2017},
+}
+
+@online{svenson_logisk_2017,
+	title = {logisk positivisme},
+	url = {https://snl.no/logisk_positivisme},
+	author = {Svenson, Lars Fredrik Händler},
+	urldate = {2017-10-20},
+	date = {2017},
+}
+
+@online{hansen_kvantedatamaskin_2016,
+	title = {kvantedatamaskin},
+	url = {https://snl.no/kvantedatamaskin},
+	author = {Hansen, Jan-Petter},
+	urldate = {2017-10-20},
+	date = {2016},
+}
+
+@online{tranoy_karl_2015,
+	title = {Karl Popper},
+	url = {https://snl.no/Karl_Popper},
+	author = {Tranøy, Knut Erik},
+	urldate = {2017-10-20},
+	date = {2015},
+}
+
+@online{svenson_thomas_2017,
+	title = {Thomas S. Kuhn},
+	url = {https://snl.no/Thomas_S._Kuhn},
+	author = {Svenson, Lars Fredrik Händler},
+	urldate = {2017-10-20},
+	date = {2017},
+}
+
+@book{petzold_code:_2009,
+	title = {Code: The hidden language of computer hardware and software},
+	publisher = {Microsoft Press},
+	author = {Petzold, Charles},
+	date = {2009},
+}
+
+@book{osaka_philosophy_2016,
+	title = {{PHILOSOPHY} {OF} {SCIENCE} - A Very short introduction - Second Edition},
+	publisher = {{OXFORD} University Press},
+	author = {Osaka, Samir},
+	date = {2016},
+}
+
+@book{bangu_filosofi_2017,
+	title = {{FILOSOFI} {FOR} {REALISTER} - Tekstsamling},
+	publisher = {Universitetsforlaget},
+	author = {Bangu, Sorin and Cahill, Kevin M.},
+	date = {2017},
+}
+
+@book{grimes_beginning_2017,
+	edition = {1 edition},
+	title = {Beginning C++ Programming},
+	abstract = {Key {FeaturesThis} book gets you started with the exciting world of C++ {programmingIt} will enable you to write C++ code that uses the standard library, has a level of object orientation, and uses memory in a safe and effective {wayIt} forms the basis of programming and covers concepts such as data structures and the core programming {languageBook} {DescriptionC}++ has come a long way and is now adopted in several contexts. Its key strengths are its software infrastructure and resource-constrained applications, including desktop applications, servers, and performance-critical applications, not to forget its importance in game programming. Despite its strengths in these areas, beginners usually tend to shy away from learning the language because of its steep learning curve.The main mission of this book is to make you familiar and comfortable with C++. You will finish the book not only being able to write your own code, but more importantly, you will be able to read other projects. It is only by being able to read others' code that you will progress from a beginner to an advanced programmer. This book is the first step in that progression.The first task is to familiarize you with the structure of C++ projects so you will know how to start reading a project. Next, you will be able to identify the main structures in the language, functions, and classes, and feel confident being able to identify the execution flow through the code. You will then become aware of the facilities of the standard library and be able to determine whether you need to write a routine yourself, or use an existing routine in the standard library.Throughout the book, there is a big emphasis on memory and pointers. You will understand memory usage, allocation, and access, and be able to write code that does not leak memory. Finally, you will learn about C++ classes and get an introduction to object orientation and polymorphism.What you will {learnGet} familiar with the structure of C++ {projectsIdentify} the main structures in the language: functions and {classesFeel} confident about being able to identify the execution flow through the {codeBe} aware of the facilities of the standard {libraryGain} insights into the basic concepts of object {orientationKnow} how to debug your {programsGet} acquainted with the standard C++ {libraryAbout} the {AuthorRichard} Grimes has been programming in C++ for 25 years, working on projects as diverse as scientific control and analysis and finance analysis to remote objects for the automotive manufacturing industry. He has spoken at 70 international conferences on Microsoft technologies (including C++ and C\#) and has written 8 books, 150 articles for programming journals, and 5 training courses for Microsoft. Richard was awarded Microsoft {MVP} for 10 years (1998-2007). He has a reputation for his deep understanding of the .{NET} framework and C++ and the frank way in which he assesses new technology.Table of {ContentsStarting} with C++Understanding Language {FeaturesExploring} C++ {TypesWorking} with Memory, Arrays, and {PointersUsing} {FunctionsClassesIntroduction} to Object-Orientated {ProgrammingUsing} the Standard Library {ContainersUsing} {StringsDiagnostics} and Debugging},
+	pagetotal = {526},
+	publisher = {Packt Publishing},
+	author = {Grimes, Richard},
+	date = {2017-04-24},
+}
+
+@online{noauthor_effective_nodate,
+	title = {Effective Java 3, Joshua Bloch, {eBook} - Amazon.com},
+	url = {https://www.amazon.com/dp/B078H61SCH/?coliid=I2NU1E0JQS40PS&colid=3K15ACY5WAB2O&psc=0&ref_=lv_ov_lig_dp_it},
+	urldate = {2018-03-14},
+}
